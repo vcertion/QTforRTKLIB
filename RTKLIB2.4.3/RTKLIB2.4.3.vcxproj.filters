@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{740d26fd-67a4-46ee-93ed-f2c0d340763a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\rcv">
+      <UniqueIdentifier>{d6871a3b-a5c7-4efa-9a31-cb279922d886}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\convgpx.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\convkml.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\convrnx.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\datum.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\download.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ephemeris.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\geoid.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\gis.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ionex.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\lambda.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\options.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\pntpos.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\postpos.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ppp.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ppp_ar.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\preceph.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcvraw.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rinex.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm2.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm3.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm3e.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtkcmn.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtkpos.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtksvr.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\sbas.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\solution.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\stream.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\streamsvr.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\tides.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\tle.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\binex.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\crescent.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\javad.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\novatel.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\nvs.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\rt17.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\septentrio.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\skytraq.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\ss2.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\ublox.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件\src\rcv</Filter>
+    </ClCompile>
+    <ClCompile Include="store.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtklib.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A23BA75E-9EA5-458B-9FF7-E5CFD66BD1B2}</ProjectGuid>
+    <RootNamespace>RTKLIB243</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;ENAGLO;ENAGAL;ENACMP;WIN_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>winmm.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\convgpx.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\convkml.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\convrnx.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\datum.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\download.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ephemeris.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\geoid.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\gis.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ionex.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\lambda.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\options.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\pntpos.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\postpos.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ppp.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\ppp_ar.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\preceph.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcvraw.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\binex.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\crescent.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\javad.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\novatel.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\nvs.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\rt17.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\septentrio.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\skytraq.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\ss2.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rcv\ublox.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rinex.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm2.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm3.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtcm3e.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtkcmn.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtkpos.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtksvr.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\sbas.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\solution.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\stream.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\streamsvr.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\tides.c" />
+    <ClCompile Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\tle.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="store.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\RTKLIB-rtklib_2.4.3\RTKLIB-rtklib_2.4.3\src\rtklib.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

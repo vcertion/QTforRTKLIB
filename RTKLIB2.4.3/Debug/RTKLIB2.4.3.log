@@ -1,0 +1,102 @@
+﻿  convgpx.c
+  convkml.c
+  convrnx.c
+  datum.c
+  download.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\download.c(333): warning C4101: “stat”: 未引用的局部变量
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\download.c(561): warning C4101: “remot_p”: 未引用的局部变量
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\download.c(841): warning C4101: “tow”: 未引用的局部变量
+  ephemeris.c
+  geoid.c
+  gis.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\gis.c(312): warning C4101: “q”: 未引用的局部变量
+  ionex.c
+  lambda.c
+  options.c
+  pntpos.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\pntpos.c(445): warning C4101: “v”: 未引用的局部变量
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\pntpos.c(610): warning C4013: “getl”未定义；假设外部返回 int
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\pntpos.c(616): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\pntpos.c(599): warning C4101: “test”: 未引用的局部变量
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\pntpos.c(685): warning C4090: “函数”: 不同的“const”限定符
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\pntpos.c(696): warning C4090: “函数”: 不同的“const”限定符
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\pntpos.c(661): warning C4101: “v”: 未引用的局部变量
+  postpos.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\postpos.c(358): warning C4098: “outobs”:“void”函数返回值
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\postpos.c(375): warning C4047: “函数”:“unsigned char *”与“unsigned char *[128]”的间接级别不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\postpos.c(375): warning C4024: “outobss”: 形参和实参 1 的类型不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\postpos.c(1047): warning C4047: “函数”:“const char *”与“char (*)[1024]”的间接级别不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\postpos.c(1047): warning C4024: “createdir”: 形参和实参 1 的类型不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\postpos.c(1048): warning C4047: “函数”:“const char *”与“char (*)[1024]”的间接级别不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\postpos.c(1048): warning C4024: “fopen”: 形参和实参 1 的类型不同
+  ppp.c
+  ppp_ar.c
+  preceph.c
+  binex.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\binex.c(987): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\binex.c(1008): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  crescent.c
+  javad.c
+  novatel.c
+  正在生成代码...
+  正在编译...
+  nvs.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\nvs.c(107): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\nvs.c(263): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  rt17.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\rt17.c(1796): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\rt17.c(1832): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  septentrio.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\septentrio.c(236): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\septentrio.c(282): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  skytraq.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\skytraq.c(202): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\skytraq.c(325): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rcv\skytraq.c(332): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ss2.c
+  ublox.c
+  rcvraw.c
+  rinex.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rinex.c(240): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  rtcm.c
+  rtcm2.c
+  rtcm3.c
+  rtcm3e.c
+  rtkcmn.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkcmn.c(4072): warning C4028: 形参 1 与声明不同
+  rtkpos.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(743): warning C4090: “函数”: 不同的“const”限定符
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(743): warning C4047: “函数”:“const nav_t *”与“const int”的间接级别不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(743): warning C4024: “detslp_gf”: 形参和实参 4 的类型不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(743): warning C4020: “detslp_gf”: 实参太多
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(1781): warning C4028: 形参 2 与声明不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(1816): warning C4047: “函数”:“const nav_t *”与“int”的间接级别不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(1816): warning C4024: “detslp_gf”: 形参和实参 4 的类型不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(1816): warning C4020: “detslp_gf”: 实参太多
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(1842): warning C4047: “函数”:“const nav_t *”与“int”的间接级别不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(1842): warning C4024: “detslp_gf”: 形参和实参 4 的类型不同
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkpos.c(1842): warning C4020: “detslp_gf”: 实参太多
+  rtksvr.c
+  sbas.c
+  solution.c
+  stream.c
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\stream.c(794): warning C4101: “rs”: 未引用的局部变量
+  streamsvr.c
+  tides.c
+  正在生成代码...
+d:\vsprojects\rtklib-rtklib_2.4.3\rtklib-rtklib_2.4.3\src\rtkcmn.c(1870): warning C4716: “tickget”: 必须返回一个值
+  正在编译...
+  tle.c
+  main.c
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\main.c(87): warning C4101: “i”: 未引用的局部变量
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\main.c(112): warning C4047: “=”:“sol_t *”与“int”的间接级别不同
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\main.c(117): warning C4047: “=”:“sol_t *”与“int”的间接级别不同
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\main.c(148): warning C4101: “pos”: 未引用的局部变量
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\main.c(149): warning C4101: “j”: 未引用的局部变量
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\main.c(149): warning C4101: “i”: 未引用的局部变量
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\main.c(165): warning C4101: “sol”: 未引用的局部变量
+  store.c
+d:\vsprojects\rtklib2.4.3\rtklib2.4.3\store.c(92): warning C4047: “return”:“char *”与“char *[4]”的间接级别不同
+  正在生成代码...
+    正在创建库 D:\VSprojects\RTKLIB2.4.3\Debug\RTKLIB2.4.3.lib 和对象 D:\VSprojects\RTKLIB2.4.3\Debug\RTKLIB2.4.3.exp
+  RTKLIB2.4.3.vcxproj -> D:\VSprojects\RTKLIB2.4.3\Debug\RTKLIB2.4.3.exe
